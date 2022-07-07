@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"chakra-modal--body-5\"] ul li\"}\n  (Session info: chrome=97.0.4692.71)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00ABFDC3+2555331]\n\tOrdinal0 [0x00A577F1+2127857]\n\tOrdinal0 [0x00952E08+1060360]\n\tOrdinal0 [0x0097E49E+1238174]\n\tOrdinal0 [0x0097E69B+1238683]\n\tOrdinal0 [0x009A9252+1413714]\n\tOrdinal0 [0x00997B54+1342292]\n\tOrdinal0 [0x009A75FA+1406458]\n\tOrdinal0 [0x00997976+1341814]\n\tOrdinal0 [0x009736B6+1193654]\n\tOrdinal0 [0x00974546+1197382]\n\tGetHandleVerifier [0x00C59622+1619522]\n\tGetHandleVerifier [0x00D0882C+2336844]\n\tGetHandleVerifier [0x00B523E1+541697]\n\tGetHandleVerifier [0x00B51443+537699]\n\tOrdinal0 [0x00A5D18E+2150798]\n\tOrdinal0 [0x00A61518+2168088]\n\tOrdinal0 [0x00A61660+2168416]\n\tOrdinal0 [0x00A6B330+2208560]\n\tBaseThreadInitThunk [0x774EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77E47A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77E47A6E+238]\n"
-}
