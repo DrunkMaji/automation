@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641882760892' stop='1641882771754'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1641882760893' status='broken' stop='1641882771753'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641882760894' status='passed' stop='1641882762405'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='d3f02e3b-07ef-445e-9cec-24efcafe35cf-attachment.json' type='application/json' size='132'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641882760899' status='passed' stop='1641882762207'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='6bc0edae-75a6-48a0-bb83-104ce6b65b7a-attachment.json' type='application/json' size='36'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641882762406' status='passed' stop='1641882762449'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dfa6e95e-8a1f-49dc-893c-399e966978d1-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='71558efd-cc00-4476-89db-4ce13596e29d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641882767463' status='broken' stop='1641882771753'>
+                    <name>POST /session/:sessionId/element/b85f7e2f-165e-49e2-bebb-8ef1d08683a0/click</name>
+                    <title>POST /session/:sessionId/element/b85f7e2f-165e-49e2-bebb-8ef1d08683a0/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641882771631' status='passed' stop='1641882771752'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='3572af21-5899-42da-9ff5-368c46f262c4-attachment.png' type='image/png' size='144941'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button class="css-50cyox">...&lt;/button> is not clickable at point (799, 45). Other element would receive the click: &lt;section class="chakra-modal__content css-1t0v71v" role="dialog" id="chakra-modal-6" tabindex="-1" aria-modal="true" aria-describedby="chakra-modal--body-6" style="opacity: 1; transform: none;">...&lt;/section>
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00C8FDC3+2555331]
+                	Ordinal0 [0x00C277F1+2127857]
+                	Ordinal0 [0x00B22E08+1060360]
+                	Ordinal0 [0x00B548CF+1263823]
+                	Ordinal0 [0x00B52B10+1256208]
+                	Ordinal0 [0x00B5076B+1247083]
+                	Ordinal0 [0x00B4F559+1242457]
+                	Ordinal0 [0x00B44FB3+1200051]
+                	Ordinal0 [0x00B67B0C+1342220]
+                	Ordinal0 [0x00B44984+1198468]
+                	Ordinal0 [0x00B67C14+1342484]
+                	Ordinal0 [0x00B775FA+1406458]
+                	Ordinal0 [0x00B67976+1341814]
+                	Ordinal0 [0x00B436B6+1193654]
+                	Ordinal0 [0x00B44546+1197382]
+                	GetHandleVerifier [0x00E29622+1619522]
+                	GetHandleVerifier [0x00ED882C+2336844]
+                	GetHandleVerifier [0x00D223E1+541697]
+                	GetHandleVerifier [0x00D21443+537699]
+                	Ordinal0 [0x00C2D18E+2150798]
+                	Ordinal0 [0x00C31518+2168088]
+                	Ordinal0 [0x00C31660+2168416]
+                	Ordinal0 [0x00C3B330+2208560]
+                	BaseThreadInitThunk [0x774EFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

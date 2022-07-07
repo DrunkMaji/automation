@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//footer//a[@href=\"/ii-accounts/trading-account\"]"
+}

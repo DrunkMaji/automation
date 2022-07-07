@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642018324595' stop='1642018332451'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1642018324595' status='passed' stop='1642018326061'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642018324597' status='passed' stop='1642018326059'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='3df9f89f-f72a-425a-8625-7975c7e9c3b1-attachment.json' type='application/json' size='132'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642018324601' status='passed' stop='1642018325832'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='7619fad3-ff29-49d8-96ec-f14e064a85b6-attachment.json' type='application/json' size='36'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1642018326059' status='undefined'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642018326064' status='passed' stop='1642018332284'>
+            <name> footer links direct correctly</name>
+            <title> footer links direct correctly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642018326066' status='passed' stop='1642018326085'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='334ff2d0-a6b4-4c0d-ae7b-8794aa846605-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642018326960' status='passed' stop='1642018327257'>
+                    <name>POST /session/:sessionId/element/31876e24-a837-4597-ae27-ac5a873e0dd4/click</name>
+                    <title>POST /session/:sessionId/element/31876e24-a837-4597-ae27-ac5a873e0dd4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642018332269' status='passed' stop='1642018332282'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='e033ed7a-9107-4be5-b274-ea8228d294a3-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='c98084ff-7583-4f0e-a662-a3eba8ce249d-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1642018332285' status='broken' stop='1642018332450'>
+            <name>investment search modal</name>
+            <title>investment search modal</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642018332285' status='broken' stop='1642018332450'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='df2bd342-b1de-4f1d-8a11-60412c06d3a8-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642018332337' status='passed' stop='1642018332449'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='e8a00719-8cc0-43f7-b36f-33b06411dfec-attachment.png' type='image/png' size='145610'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //site-header//[role=button] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//site-header//[role=button]' is not a valid XPath expression.
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00ACFDC3+2555331]
+                	Ordinal0 [0x00A677F1+2127857]
+                	Ordinal0 [0x00962E08+1060360]
+                	Ordinal0 [0x00965524+1070372]
+                	Ordinal0 [0x009653EE+1070062]
+                	Ordinal0 [0x00965650+1070672]
+                	Ordinal0 [0x0098E212+1237522]
+                	Ordinal0 [0x0098E69B+1238683]
+                	Ordinal0 [0x009B928C+1413772]
+                	Ordinal0 [0x009A7B54+1342292]
+                	Ordinal0 [0x009B75FA+1406458]
+                	Ordinal0 [0x009A7976+1341814]
+                	Ordinal0 [0x009836B6+1193654]
+                	Ordinal0 [0x00984546+1197382]
+                	GetHandleVerifier [0x00C69622+1619522]
+                	GetHandleVerifier [0x00D1882C+2336844]
+                	GetHandleVerifier [0x00B623E1+541697]
+                	GetHandleVerifier [0x00B61443+537699]
+                	Ordinal0 [0x00A6D18E+2150798]
+                	Ordinal0 [0x00A71518+2168088]
+                	Ordinal0 [0x00A71660+2168416]
+                	Ordinal0 [0x00A7B330+2208560]
+                	BaseThreadInitThunk [0x774EFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

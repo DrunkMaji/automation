@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641880173693' stop='1641880178949'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1641880173693' status='broken' stop='1641880178948'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641880173696' status='passed' stop='1641880175033'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c08b7dbe-6b24-41b8-ab48-ee2902981cf8-attachment.json' type='application/json' size='248'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641880173700' status='passed' stop='1641880173717'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='3c6f9547-de20-4a4a-8468-debf56b049fb-attachment.json' type='application/json' size='36'/>
+                                <attachment title='Response' source='ab71e276-2a00-4b9a-ade0-c6389d6455e5-attachment.json' type='application/json' size='1222'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641880178732' status='passed' stop='1641880178752'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='53942890-d1cc-4da4-87e8-5d273bc1731c-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='3955b042-9e32-419e-81f7-9b1f69182fd4-attachment.json' type='application/json' size='912'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880178760' status='passed' stop='1641880178785'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8012fcec-f1d1-44af-9d7e-639993865048-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='98d3f644-287f-460c-9c7c-822aca60b6fc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880178787' status='passed' stop='1641880178803'>
+                    <name>GET /session/:sessionId/element/b5d70f4a-c1c3-4ec6-825c-67b176f81fba/rect</name>
+                    <title>GET /session/:sessionId/element/b5d70f4a-c1c3-4ec6-825c-67b176f81fba/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='902986b3-4d7b-44c3-a27f-b7352b589571-attachment.json' type='application/json' size='85'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880178803' status='passed' stop='1641880178817'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='27ac6715-6e5e-4887-9a75-51119aa1a09e-attachment.json' type='application/json' size='158'/>
+                        <attachment title='Response' source='04bf6a10-f42f-4d08-b9cd-2f3a889cee61-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880178818' status='passed' stop='1641880178830'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='d315d9b4-1fd3-40e2-9c1a-12c90ccef2f6-attachment.json' type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880178830' status='passed' stop='1641880178834'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1641880178835' status='passed' stop='1641880178946'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ace31a69-5030-4f40-b525-ebed56f4cf69-attachment.png' type='image/png' size='144960'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>click is not defined</message>
+                <stack-trace>ReferenceError: click is not defined
+                    at Context.&lt;anonymous> (C:\Users\littl\Documents\automation\test\specs\interview.js:9:8)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

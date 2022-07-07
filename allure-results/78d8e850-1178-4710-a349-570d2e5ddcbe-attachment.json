@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//footer//a[@href=\"/ii-accounts/trading-account\"]\"}\n  (Session info: chrome=97.0.4692.71)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x011DFDC3+2555331]\n\tOrdinal0 [0x011777F1+2127857]\n\tOrdinal0 [0x01072E08+1060360]\n\tOrdinal0 [0x0109E49E+1238174]\n\tOrdinal0 [0x0109E69B+1238683]\n\tOrdinal0 [0x010C9252+1413714]\n\tOrdinal0 [0x010B7B54+1342292]\n\tOrdinal0 [0x010C75FA+1406458]\n\tOrdinal0 [0x010B7976+1341814]\n\tOrdinal0 [0x010936B6+1193654]\n\tOrdinal0 [0x01094546+1197382]\n\tGetHandleVerifier [0x01379622+1619522]\n\tGetHandleVerifier [0x0142882C+2336844]\n\tGetHandleVerifier [0x012723E1+541697]\n\tGetHandleVerifier [0x01271443+537699]\n\tOrdinal0 [0x0117D18E+2150798]\n\tOrdinal0 [0x01181518+2168088]\n\tOrdinal0 [0x01181660+2168416]\n\tOrdinal0 [0x0118B330+2208560]\n\tBaseThreadInitThunk [0x774EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77E47A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77E47A6E+238]\n"
+}

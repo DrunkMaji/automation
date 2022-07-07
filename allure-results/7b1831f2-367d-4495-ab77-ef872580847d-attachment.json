@@ -1,0 +1,6 @@
+{
+  "cookie": {
+    "name": "cookie-preferences",
+    "value": "{\"functional\":true,\"performance\":true,\"analytics\":true}"
+  }
+}

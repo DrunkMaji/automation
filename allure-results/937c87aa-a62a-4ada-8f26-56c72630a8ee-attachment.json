@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[role=\"button\"],input[type=\"checkbox\"],summary[aria-expanded=\"false\"],summary[aria-expanded=\"true\"],input[type=\"button\"],input[type=\"image\"],input[type=\"reset\"],input[type=\"submit\"],button"
+}

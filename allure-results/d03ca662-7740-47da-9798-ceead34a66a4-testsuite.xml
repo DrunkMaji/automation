@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641897479833' stop='1641897482861'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1641897479833' status='passed' stop='1641897481458'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641897479835' status='passed' stop='1641897481455'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='b07b75fd-f047-4645-a58a-89bab3da31fd-attachment.json' type='application/json' size='132'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641897479840' status='passed' stop='1641897481263'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='be463a9c-5624-453d-a4a2-7acd438bb22c-attachment.json' type='application/json' size='36'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641897481455' status='undefined'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1641897481459' status='broken' stop='1641897482860'>
+            <name>links direct correctly</name>
+            <title>links direct correctly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641897481461' status='passed' stop='1641897482258'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='213a69f8-375e-4f42-b69e-bc9ea3e5483b-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641897482452' status='passed' stop='1641897482606'>
+                    <name>POST /session/:sessionId/element/9c258e4e-caa4-42e7-82ec-4c03020a63e7/elements</name>
+                    <title>POST /session/:sessionId/element/9c258e4e-caa4-42e7-82ec-4c03020a63e7/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5ee044e9-1fcf-4536-a5a3-ef83afddbf72-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='11e9cee4-9518-4e43-b6ac-afdd2eea9c0f-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641897482612' status='broken' stop='1641897482860'>
+                    <name>POST /session/:sessionId/element/d40e5264-5d90-482a-87af-daf583fea19a/click</name>
+                    <title>POST /session/:sessionId/element/d40e5264-5d90-482a-87af-daf583fea19a/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641897482684' status='passed' stop='1641897482860'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='22c87576-cb99-4920-83e2-618414e7c67d-attachment.png' type='image/png' size='171331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='11ef6b0a-90d1-4a66-a901-ea568ab35326-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0120FDC3+2555331]
+                	Ordinal0 [0x011A77F1+2127857]
+                	Ordinal0 [0x010A2CD0+1060048]
+                	Ordinal0 [0x010CF3AE+1242030]
+                	Ordinal0 [0x010C4FB3+1200051]
+                	Ordinal0 [0x010E7B0C+1342220]
+                	Ordinal0 [0x010C4984+1198468]
+                	Ordinal0 [0x010E7C14+1342484]
+                	Ordinal0 [0x010F75FA+1406458]
+                	Ordinal0 [0x010E7976+1341814]
+                	Ordinal0 [0x010C36B6+1193654]
+                	Ordinal0 [0x010C4546+1197382]
+                	GetHandleVerifier [0x013A9622+1619522]
+                	GetHandleVerifier [0x0145882C+2336844]
+                	GetHandleVerifier [0x012A23E1+541697]
+                	GetHandleVerifier [0x012A1443+537699]
+                	Ordinal0 [0x011AD18E+2150798]
+                	Ordinal0 [0x011B1518+2168088]
+                	Ordinal0 [0x011B1660+2168416]
+                	Ordinal0 [0x011BB330+2208560]
+                	BaseThreadInitThunk [0x774EFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

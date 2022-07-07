@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641880952760' stop='1641880962268'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1641880952760' status='broken' stop='1641880962267'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641880952763' status='passed' stop='1641880954121'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2ce0f80e-a685-4463-b49c-0c689440d877-attachment.json' type='application/json' size='248'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641880952767' status='passed' stop='1641880952784'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='5bd92f49-e849-4b5a-9b72-1a3dfd151129-attachment.json' type='application/json' size='36'/>
+                                <attachment title='Response' source='713ea70c-01e2-4ccb-8ea4-35b5eafd465d-attachment.json' type='application/json' size='1222'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641880957807' status='passed' stop='1641880957827'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='abf4d423-abf8-499f-b66d-5e3462b95f76-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='b6875de9-329b-4297-9b24-c8bf470755de-attachment.json' type='application/json' size='912'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880957839' status='passed' stop='1641880957858'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='937c87aa-a62a-4ada-8f26-56c72630a8ee-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='7590c80b-5ba2-4c23-ab0b-808e22a1f954-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880957860' status='broken' stop='1641880962267'>
+                    <name>POST /session/:sessionId/element/1d248010-0d48-415a-a36b-959306cc8228/click</name>
+                    <title>POST /session/:sessionId/element/1d248010-0d48-415a-a36b-959306cc8228/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641880962132' status='passed' stop='1641880962266'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='b94c7c96-5aa4-465a-be3a-a4aeccac2740-attachment.png' type='image/png' size='144941'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button class="css-50cyox">...&lt;/button> is not clickable at point (799, 45). Other element would receive the click: &lt;section class="chakra-modal__content css-1t0v71v" role="dialog" id="chakra-modal-6" tabindex="-1" aria-modal="true" aria-describedby="chakra-modal--body-6" style="opacity: 1; transform: none;">...&lt;/section>
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00C8FDC3+2555331]
+                	Ordinal0 [0x00C277F1+2127857]
+                	Ordinal0 [0x00B22E08+1060360]
+                	Ordinal0 [0x00B548CF+1263823]
+                	Ordinal0 [0x00B52B10+1256208]
+                	Ordinal0 [0x00B5076B+1247083]
+                	Ordinal0 [0x00B4F559+1242457]
+                	Ordinal0 [0x00B44FB3+1200051]
+                	Ordinal0 [0x00B67B0C+1342220]
+                	Ordinal0 [0x00B44984+1198468]
+                	Ordinal0 [0x00B67C14+1342484]
+                	Ordinal0 [0x00B775FA+1406458]
+                	Ordinal0 [0x00B67976+1341814]
+                	Ordinal0 [0x00B436B6+1193654]
+                	Ordinal0 [0x00B44546+1197382]
+                	GetHandleVerifier [0x00E29622+1619522]
+                	GetHandleVerifier [0x00ED882C+2336844]
+                	GetHandleVerifier [0x00D223E1+541697]
+                	GetHandleVerifier [0x00D21443+537699]
+                	Ordinal0 [0x00C2D18E+2150798]
+                	Ordinal0 [0x00C31518+2168088]
+                	Ordinal0 [0x00C31660+2168416]
+                	Ordinal0 [0x00C3B330+2208560]
+                	BaseThreadInitThunk [0x774EFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

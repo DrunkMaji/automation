@@ -1,0 +1,149 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642027557030' stop='1642027570143'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1642027557030' status='passed' stop='1642027558531'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642027557032' status='passed' stop='1642027558528'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='928a2088-67ca-4309-834c-ab1fb6688ea6-attachment.json' type='application/json' size='132'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642027557036' status='passed' stop='1642027558325'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='e81a40d2-a06b-4ebd-bf32-834fb3e85825-attachment.json' type='application/json' size='36'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1642027558529' status='undefined'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642027558532' status='passed' stop='1642027564771'>
+            <name> footer links direct correctly</name>
+            <title> footer links direct correctly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642027558534' status='passed' stop='1642027559238'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e8272647-6162-4680-bbb9-cde312f45c12-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642027559297' status='passed' stop='1642027559744'>
+                    <name>POST /session/:sessionId/element/0295a219-dcfa-427b-a82b-37771a1c8881/click</name>
+                    <title>POST /session/:sessionId/element/0295a219-dcfa-427b-a82b-37771a1c8881/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642027564756' status='passed' stop='1642027564768'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='0414bba7-74ec-44ce-b6e7-aa1bfebdf2b6-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='2c94d4e4-ac7a-4957-9928-006e0352ffe8-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1642027564771' status='failed' stop='1642027570142'>
+            <name>investment search modal</name>
+            <title>investment search modal</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642027564772' status='passed' stop='1642027564791'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='94183e78-9ff5-4bb8-a82c-11ea9bd434fe-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='17138e25-12ce-4087-8448-b7c9a76686d9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642027564794' status='passed' stop='1642027564978'>
+                    <name>POST /session/:sessionId/element/a7362765-0d56-4e4a-a2d5-e215d7de1656/click</name>
+                    <title>POST /session/:sessionId/element/a7362765-0d56-4e4a-a2d5-e215d7de1656/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642027569988' status='passed' stop='1642027570013'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6bd79815-e24f-4451-a0ae-484af418d0cd-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='e6450726-d161-45b2-a413-5eeafb00a708-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642027570020' status='passed' stop='1642027570141'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b8c47897-a558-4dad-b797-7f90d1943a81-attachment.png' type='image/png' size='151005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toHaveProperty(path, value)
+                
+                Expected path: "opacity"
+                Received path: []
+                
+                Expected value: 1
+                Received value: {"addCommand": [Function anonymous], "element-6066-11e4-a52e-4f735466cecf": "4e0dbdbb-da39-4760-8e20-1a6311b95292", "elementId": "4e0dbdbb-da39-4760-8e20-1a6311b95292", "emit": [Function bound ], "isReactElement": false, "overwriteCommand": [Function anonymous], "parent": {"addCommand": [Function anonymous], "addLocatorStrategy": [Function anonymous], "capabilities": {"acceptInsecureCerts": true, "browserName": "chrome", "browserVersion": "97.0.4692.71", "chrome": {"chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})", "userDataDir": "C:\\Users\\littl\\AppData\\Local\\Temp\\scoped_dir21220_1021225743"}, "goog:chromeOptions": {"debuggerAddress": "localhost:58566"}, "networkConnectionEnabled": false, "pageLoadStrategy": "normal", "platformName": "windows", "proxy": {}, "setWindowRect": true, "strictFileInteractability": false, "timeouts": {"implicit": 0, "pageLoad": 300000, "script": 30000}, "unhandledPromptBehavior": "dismiss and notify", "webauthn:extension:credBlob": true, "webauthn:extension:largeBlob": true, "webauthn:virtualAuthenticators": true}, "config": {"$0": "node_modules\\@wdio\\cli\\bin\\wdio.js", "_": ["run"], "after": [], "afterCommand": [], "afterFeature": [], "afterHook": [], "afterScenario": [], "afterSession": [], "afterStep": [], "afterSuite": [], "afterTest": [[Function bound afterTest]], "autoCompileOpts": {"autoCompile": true, "babelOpts": {}, "tsNodeOpts": {"transpileOnly": true}}, "bail": 0, "baseUrl": "https://www.ii.co.uk", "before": [], "beforeCommand": [], "beforeFeature": [], "beforeHook": [], "beforeScenario": [], "beforeSession": [], "beforeStep": [], "beforeSuite": [], "beforeTest": [], "config-path": "wdio.conf.js", "connectionRetryCount": 3, "connectionRetryTimeout": 120000, "cucumberFeaturesWithLineNumbers": [], "cucumberOpts": {"timeout": 10000}, "exclude": [], "excludeDriverLogs": [], "execArgv": [], "filesToWatch": [], "framework": "mocha", "ignoredWorkerServices": [], "jasmineOpts": {"defaultTimeoutInterval": 10000}, "logLevel": "info", "logLevels": {}, "maxInstances": 10, "maxInstancesPerCapability": 100, "mochaOpts": {"timeout": 60000, "ui": "bdd"}, "onComplete": [], "onPrepare": [], "onReload": [], "onWorkerStart": [], "outputDir": undefined, "reporterSyncInterval": 100, "reporterSyncTimeout": 5000, "reporters": ["spec", ["allure", {"outputDir": "allure-results"}]], "runner": "local", "runnerEnv": {}, "services": ["chromedriver"], "specFileRetries": 0, "specFileRetriesDeferred": false, "specFileRetriesDelay": 0, "specs": ["./test/specs/**/*.ts"], "suites": {}, "waitforInterval": 500, "waitforTimeout": 10000}, "overwriteCommand": [Function anonymous], "sessionId": "43303f688652fc9e33ad901b1a3f0fb6"}, "selector": ".css-1blh7oh", "sessionId": "43303f688652fc9e33ad901b1a3f0fb6"}</message>
+                <stack-trace>Error: expect(received).toHaveProperty(path, value)
+                
+                Expected path: "opacity"
+                Received path: []
+                
+                Expected value: 1
+                Received value: {"addCommand": [Function anonymous], "element-6066-11e4-a52e-4f735466cecf": "4e0dbdbb-da39-4760-8e20-1a6311b95292", "elementId": "4e0dbdbb-da39-4760-8e20-1a6311b95292", "emit": [Function bound ], "isReactElement": false, "overwriteCommand": [Function anonymous], "parent": {"addCommand": [Function anonymous], "addLocatorStrategy": [Function anonymous], "capabilities": {"acceptInsecureCerts": true, "browserName": "chrome", "browserVersion": "97.0.4692.71", "chrome": {"chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})", "userDataDir": "C:\\Users\\littl\\AppData\\Local\\Temp\\scoped_dir21220_1021225743"}, "goog:chromeOptions": {"debuggerAddress": "localhost:58566"}, "networkConnectionEnabled": false, "pageLoadStrategy": "normal", "platformName": "windows", "proxy": {}, "setWindowRect": true, "strictFileInteractability": false, "timeouts": {"implicit": 0, "pageLoad": 300000, "script": 30000}, "unhandledPromptBehavior": "dismiss and notify", "webauthn:extension:credBlob": true, "webauthn:extension:largeBlob": true, "webauthn:virtualAuthenticators": true}, "config": {"$0": "node_modules\\@wdio\\cli\\bin\\wdio.js", "_": ["run"], "after": [], "afterCommand": [], "afterFeature": [], "afterHook": [], "afterScenario": [], "afterSession": [], "afterStep": [], "afterSuite": [], "afterTest": [[Function bound afterTest]], "autoCompileOpts": {"autoCompile": true, "babelOpts": {}, "tsNodeOpts": {"transpileOnly": true}}, "bail": 0, "baseUrl": "https://www.ii.co.uk", "before": [], "beforeCommand": [], "beforeFeature": [], "beforeHook": [], "beforeScenario": [], "beforeSession": [], "beforeStep": [], "beforeSuite": [], "beforeTest": [], "config-path": "wdio.conf.js", "connectionRetryCount": 3, "connectionRetryTimeout": 120000, "cucumberFeaturesWithLineNumbers": [], "cucumberOpts": {"timeout": 10000}, "exclude": [], "excludeDriverLogs": [], "execArgv": [], "filesToWatch": [], "framework": "mocha", "ignoredWorkerServices": [], "jasmineOpts": {"defaultTimeoutInterval": 10000}, "logLevel": "info", "logLevels": {}, "maxInstances": 10, "maxInstancesPerCapability": 100, "mochaOpts": {"timeout": 60000, "ui": "bdd"}, "onComplete": [], "onPrepare": [], "onReload": [], "onWorkerStart": [], "outputDir": undefined, "reporterSyncInterval": 100, "reporterSyncTimeout": 5000, "reporters": ["spec", ["allure", {"outputDir": "allure-results"}]], "runner": "local", "runnerEnv": {}, "services": ["chromedriver"], "specFileRetries": 0, "specFileRetriesDeferred": false, "specFileRetriesDelay": 0, "specs": ["./test/specs/**/*.ts"], "suites": {}, "waitforInterval": 500, "waitforTimeout": 10000}, "overwriteCommand": [Function anonymous], "sessionId": "43303f688652fc9e33ad901b1a3f0fb6"}, "selector": ".css-1blh7oh", "sessionId": "43303f688652fc9e33ad901b1a3f0fb6"}
+                    at Context.&lt;anonymous> (C:\Users\littl\Documents\automation\test\specs\interview.ts:46:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

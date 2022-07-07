@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641880765298' stop='1641880775276'>
+    <name>ii cookie banner</name>
+    <title>ii cookie banner</title>
+    <test-cases>
+        <test-case start='1641880765298' status='broken' stop='1641880775275'>
+            <name>cookie banner accept</name>
+            <title>cookie banner accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641880765300' status='passed' stop='1641880770095'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='18ca4e67-7428-4e20-ba83-d3e2a25ffc4e-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='e91aaeaa-0885-4333-bc5b-0e4cdadb41da-attachment.json' type='application/json' size='912'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641880765304' status='passed' stop='1641880765322'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='ee7a5369-61c6-4823-8e62-f555789ac75e-attachment.json' type='application/json' size='36'/>
+                                <attachment title='Response' source='d3d6e90e-d392-4d4a-b172-e550465bbe0f-attachment.json' type='application/json' size='1222'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1641880765332' status='passed' stop='1641880770082'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='b069400d-2a48-4c6e-81e8-4ce4011e43c0-attachment.json' type='application/json' size='248'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641880770104' status='passed' stop='1641880770122'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='00ce0171-28f3-495d-af04-497dab7705f2-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='9f41e521-226c-4402-83a6-e85e72cf449a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880770124' status='passed' stop='1641880770142'>
+                    <name>GET /session/:sessionId/element/3ea5be17-9f31-41e4-952a-9f17239fc8b4/rect</name>
+                    <title>GET /session/:sessionId/element/3ea5be17-9f31-41e4-952a-9f17239fc8b4/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='f78600e0-57db-4801-85cf-6d92ce7dc905-attachment.json' type='application/json' size='85'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641880775151' status='passed' stop='1641880775274'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7108c46b-8a8b-40d4-8226-26eea41464b1-attachment.png' type='image/png' size='144941'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.click is not a function</message>
+                <stack-trace>TypeError: browser.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\littl\Documents\automation\test\specs\interview.js:10:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

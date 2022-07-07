@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641876458083' stop='1641876480313'>
+    <name>ebay test</name>
+    <title>ebay test</title>
+    <test-cases>
+        <test-case start='1641876458083' status='passed' stop='1641876480100'>
+            <name>cookie banner</name>
+            <title>cookie banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641876458085' status='passed' stop='1641876459458'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='187bb3f4-b698-4e56-893c-fbbbf45d3f62-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps>
+                        <step start='1641876458089' status='passed' stop='1641876458107'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a54b3963-09f3-4cc6-920d-fa639a6cf689-attachment.json' type='application/json' size='38'/>
+                                <attachment title='Response' source='642729fc-0af2-4d60-b89b-c8713cda6b86-attachment.json' type='application/json' size='1037'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641876469096' status='passed' stop='1641876469124'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='40ff25eb-d842-4923-8f2d-ef145d28057d-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='eb3f3160-1493-455c-ae01-1acf3fc32f27-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641876469127' status='passed' stop='1641876469146'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf8a68c4-c6db-467a-8ff4-874eada4a0f1-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='e4366b40-aebe-453b-a2f9-fc522854f237-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641876469148' status='passed' stop='1641876469196'>
+                    <name>POST /session/:sessionId/element/67fe3429-65f3-496e-808c-47783b646941/click</name>
+                    <title>POST /session/:sessionId/element/67fe3429-65f3-496e-808c-47783b646941/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1641876480100' status='broken' stop='1641876480312'>
+            <name>sell link exists</name>
+            <title>sell link exists</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641876480101' status='passed' stop='1641876480119'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='72cc5b09-a1d6-4b88-b434-e06592a1408b-attachment.json' type='application/json' size='86'/>
+                        <attachment title='Response' source='77889a45-6203-4b94-8578-119a1c0bf8d8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641876480122' status='passed' stop='1641876480311'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f15de811-4100-499c-943f-d25c4b298c48-attachment.png' type='image/png' size='421557'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>exspect is not defined</message>
+                <stack-trace>ReferenceError: exspect is not defined
+                    at Context.&lt;anonymous> (C:\Users\littl\Documents\automation\test\specs\interview-task.js:18:7)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

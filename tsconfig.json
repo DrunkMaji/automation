@@ -1,0 +1,16 @@
+{
+    "compilerOptions":{
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target":"es5",
+        "types":[
+            "node",
+            "webdriverio/async",
+            "@wdio/mocha-framework",
+            //"@wdio/devtools-service"
+            
+            
+        ]
+    }
+}
