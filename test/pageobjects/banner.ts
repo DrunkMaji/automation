@@ -15,6 +15,9 @@ class banner {                              //create class for selectors
     return $('#chakra-modal--body-5').$('input.chakra-input.ii-8530ov') // find input value in child element of modal
   }
 
+  
+
+  
 
 
 
